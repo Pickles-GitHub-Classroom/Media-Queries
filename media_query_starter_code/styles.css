@@ -1,0 +1,49 @@
+body {
+	background: black;
+}
+
+@media (min-width: 600px) {
+	body {
+		background: black;
+	}
+	#B, {
+		display: inline;
+		width: auto;
+		height: auto;
+	}
+	#C {
+		display: inline;
+		width: 100px;
+		height: auto;
+	}
+}
+
+/*------end media query----------------------------*/
+
+.container {
+	align-items: center;
+
+}
+
+.box {
+	display: flex;
+	background: blue;
+	color: white;
+	border-radius: 20px;
+	margin: 15px;
+	
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+#B {
+	height: 400px;
+}
+
+@media (max-width: 500px) {
+	body{
+		background: black;
+		color: white
+	}
+}
